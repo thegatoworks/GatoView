@@ -1,0 +1,18 @@
+{
+  "name": "com.gatoworks.gatoview",
+  "displayName":"GatoView",
+  "version": "0.1.0",
+  "unity": "6000.0",
+  "description": "This package provides a runtime developer UI overlay that can be opened with specific key-combinations.\nThe package contains built-in overlays for monitoring different aspects of your game, such as\n\u25AA Rendering\n\u25AA And more to come in future versions!\nYou can also create your own custom overlays with your own information through this package's C# Attribute based API.",
+  "dependencies": {
+    "com.unity.test-framework": "1.6.0"
+  },
+  "author": {
+    "name": "gato",
+    "url": "http://www.example.com",
+    "email": "example@email.com"
+  },
+  "changelogUrl": "https://example.com/changelog.html",
+  "documentationUrl": "https://example.com/",
+  "licensesUrl": "https://example.com/licensing.html"
+}

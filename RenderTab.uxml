@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Main/UniversalColorScheme.uss?fileID=7433441132597879392&amp;guid=b92f2a181a2d33443889f33debc7a58f&amp;type=3#UniversalColorScheme" />
+    <Style src="project://database/Assets/Main/UniversalTabStyle.uss?fileID=7433441132597879392&amp;guid=8b14ba23a0de573429f735acd69e0c62&amp;type=3#UniversalTabStyle" />
+    <ui:VisualElement name="TabViewInstance" style="flex-grow: 1;">
+        <ui:VisualElement name="Panel" class="panel">
+            <ui:Label text="Rendering" class="general-text title txtcol-title" />
+            <ui:VisualElement name="Entry" class="entry-element">
+                <ui:Label text="Current FPS:" name="Left" class="general-text txtcol-general entry-left-text-spacing" />
+                <ui:Label text="144" name="Right" class="general-text txtcol-ok" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Entry" class="entry-element">
+                <ui:Label text="Avg. FPS:" name="Left" class="general-text txtcol-general entry-left-text-spacing" />
+                <ui:Label text="144/s" name="Right" class="general-text txtcol-ok txtcol-warn txtcol-error" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Entry" class="entry-element">
+                <ui:Label text="Avg. FPS:" name="Left" class="general-text txtcol-general entry-left-text-spacing" />
+                <ui:Label text="144/s" name="Right" class="general-text txtcol-ok txtcol-warn txtcol-error" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

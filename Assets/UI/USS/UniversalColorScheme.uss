@@ -20,3 +20,23 @@
 .txtcol-error {
     color: rgb(255, 0, 72);
 }
+
+.txtcol-info {
+    color: rgb(164, 164, 164);
+}
+
+.button-active {
+    background-color: rgb(49, 244, 198);
+}
+
+.button-active-hover {
+    background-color: rgb(0, 255, 195);
+}
+
+.button-active-click {
+    background-color: rgb(104, 213, 188);
+}
+
+.txtcol-black {
+    color: rgb(0, 0, 0);
+}

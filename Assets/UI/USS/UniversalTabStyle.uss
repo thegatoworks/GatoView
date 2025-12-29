@@ -25,29 +25,9 @@
     padding-left: 2px;
 }
 
-.general-text {
-    -unity-font-definition: url("project://database/Assets/Main/FiraCode-Medium.ttf?fileID=12800000&guid=85b0d8bcdafb75345b49d627b262c9f0&type=3#FiraCode-Medium");
-    -unity-text-align: upper-left;
-    font-size: 100%;
-    white-space: normal;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-}
 
-.title {
-    -unity-font-style: bold;
-    -unity-text-align: upper-center;
-    margin-top: 7px;
-    margin-right: 0;
-    margin-bottom: 7px;
-    margin-left: 0;
-}
+
+
 
 .entry-element {
     flex-direction: row;

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Main/Assets/UI/USS/EditorStyle.uss?fileID=7433441132597879392&amp;guid=a63188ffd4c3d3c4295d7bfd8a4e1c10&amp;type=3#EditorStyle"/>
+    <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalColorScheme.uss?fileID=7433441132597879392&amp;guid=b92f2a181a2d33443889f33debc7a58f&amp;type=3#UniversalColorScheme"/>
+    <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalTabStyle.uss?fileID=7433441132597879392&amp;guid=8b14ba23a0de573429f735acd69e0c62&amp;type=3#UniversalTabStyle"/>
+    <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalTextStyle.uss?fileID=7433441132597879392&amp;guid=5ebe79cb6177c8344afe574934027286&amp;type=3#UniversalTextStyle"/>
+    <ui:VisualElement name="ScreenContainer" class="screen-container" style="flex-grow: 1;">
+        <ui:VisualElement name="PromptContainer" class="prompt-panel">
+            <ui:Label text="GatoView Automatic Setup" name="TitleLabel" class="editor-title-font editor-title-style txtcol-title"/>
+            <ui:VisualElement name="Divider" class="divider"/>
+            <ui:Label text="Welcome to GatoView! This is an automatic setup UI designed to make your time easier. Simply click the Setup button and your instance of GatoView will automatically be set up!&#10;&#10;The automatic setup will create a manager empty game object for GatoView to run on. This will be moved to the DontDestroyOnLoad category at runtime to preserve the UI and it&apos;s manager code.&#10;&#10;The rest is handled at runtime! Please read the documentation for further information on how to use this asset." name="DescriptionLabel" class="editor-general-text txtcol-general description center-mid"/>
+            <ui:Button text="Setup" name="SetupButton" class="setup-button button-active editor-title-style txtcol-black"/>
+            <ui:Label text="Asset Version: {0} Automatic Setup Version: {1}" name="AssetInfoLabel" class="info-text-style txtcol-info right right-bottom"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

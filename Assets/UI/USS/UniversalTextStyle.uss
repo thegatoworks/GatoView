@@ -1,0 +1,76 @@
+:root {
+}
+
+.editor-title-style {
+    -unity-text-align: middle-center;
+    font-size: 28px;
+    -unity-font-style: bold;
+    -unity-font-definition: url("project://database/Assets/Main/Assets/UI/Fonts/Gotham-Medium.otf?fileID=12800000&guid=4de5a494a0115eb4b902190875099f83&type=3#Gotham-Medium");
+}
+
+.editor-general-text {
+    -unity-font-definition: url("project://database/Assets/Main/Assets/UI/Fonts/Gotham-Light.otf?fileID=12800000&guid=64ab8b831a3868640bc3b08c3cd925cc&type=3#Gotham-Light");
+    white-space: normal;
+    font-size: 18px;
+}
+
+.general-text {
+    -unity-font-definition: url("project://database/Assets/Main/Assets/UI/Fonts/FiraCode-Medium.ttf?fileID=12800000&guid=85b0d8bcdafb75345b49d627b262c9f0&type=3#FiraCode-Medium");
+    -unity-text-align: upper-left;
+    font-size: 100%;
+    white-space: normal;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.title {
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+    margin-top: 7px;
+    margin-right: 0;
+    margin-bottom: 7px;
+    margin-left: 0;
+}
+
+.info-text-style {
+    -unity-font-definition: url("project://database/Assets/Main/Assets/UI/Fonts/FiraCode-Light.ttf?fileID=12800000&guid=372e94774102a3344bc4aa5855871028&type=3#FiraCode-Light");
+    font-size: 11px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.right-mid {
+    -unity-text-align: middle-right;
+}
+
+.right-bottom {
+    -unity-text-align: lower-right;
+}
+
+.center-up {
+    -unity-text-align: upper-center;
+}
+
+.center-mid {
+    -unity-text-align: middle-center;
+}
+
+.center-bottom {
+    -unity-text-align: lower-center;
+}
+
+.right-up {
+    -unity-text-align: upper-right;
+}

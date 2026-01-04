@@ -3,21 +3,21 @@
 
 .prompt-panel {
     background-color: rgba(0, 0, 0, 0.65);
-    width: auto;
+    width: 100%;
     height: auto;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     overflow: hidden;
     padding-top: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
     min-width: 500px;
-    max-width: 500px;
-    min-height: 400px;
-    max-height: 1000px;
+    max-width: 100%;
+    min-height: 0%;
+    max-height: 100%;
     align-items: stretch;
 }
 
@@ -42,18 +42,6 @@
     margin-bottom: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .setup-button {
     width: 50%;
     align-self: center;
@@ -64,11 +52,3 @@
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
-
-
-
-
-
-
-
-

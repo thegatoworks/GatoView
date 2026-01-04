@@ -3,7 +3,7 @@
     <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalColorScheme.uss?fileID=7433441132597879392&amp;guid=b92f2a181a2d33443889f33debc7a58f&amp;type=3#UniversalColorScheme"/>
     <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalTabStyle.uss?fileID=7433441132597879392&amp;guid=8b14ba23a0de573429f735acd69e0c62&amp;type=3#UniversalTabStyle"/>
     <Style src="project://database/Assets/Main/Assets/UI/USS/UniversalTextStyle.uss?fileID=7433441132597879392&amp;guid=5ebe79cb6177c8344afe574934027286&amp;type=3#UniversalTextStyle"/>
-    <ui:VisualElement name="ScreenContainer" class="screen-container" style="flex-grow: 1;">
+    <ui:VisualElement name="ScreenContainer" class="screen-container" style="flex-grow: 1; flex-shrink: 1;">
         <ui:VisualElement name="PromptContainer" class="prompt-panel">
             <ui:Label text="GatoView Automatic Setup" name="TitleLabel" class="editor-title-font editor-title-style txtcol-title"/>
             <ui:VisualElement name="Divider" class="divider"/>
